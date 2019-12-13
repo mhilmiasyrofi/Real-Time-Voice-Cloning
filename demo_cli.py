@@ -143,6 +143,9 @@ if __name__ == '__main__':
             
             ## Generating the spectrogram
             text = input("Write a sentence (+-20 words) to be synthesized:\n")
+            print("Text: " + text)
+            text = text.encode('utf-8')
+            print("Encoded Text: " + text)
             
             # The synthesizer works in batch, so you need to put your data in a list or numpy array
             texts = [text]

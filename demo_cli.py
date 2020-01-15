@@ -183,10 +183,10 @@ if __name__ == '__main__':
                 sd.play(generated_wav, synthesizer.sample_rate)
                 
             # Save it on the disk
-            fpath = "audio_%02d.wav" % i
+            fpath = "output/audio_%02d.wav" % i
             librosa.output.write_wav(fpath, generated_wav.astype(np.float32), 
                                         synthesizer.sample_rate)
-            print("\nSave audio as %s\n\n" % fpath)
+            print("\nSave audio at %s\n\n" % fpath)
         
         
     except Exception as e:

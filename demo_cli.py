@@ -118,7 +118,7 @@ if __name__ == '__main__':
         message = "Reference voice: enter an audio filepath of a voice to be cloned (mp3, " \
                     "wav, m4a, flac, ...):\n"
         # path = input(message)
-        path = "dataset/source.mp3"
+        path = "dataset/source.flac"
         in_fpath = os.fspath(Path(path.replace("\"", "").replace("\'", "")))
 
         ## Computing the embedding

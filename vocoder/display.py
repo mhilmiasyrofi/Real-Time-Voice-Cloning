@@ -13,7 +13,8 @@ def progbar(i, n, size=16):
 
 
 def stream(message) :
-    sys.stdout.write("\r{%s}" % message)
+    # print("\r" + message)
+    sys.stdout.write("\r{%s}" % message.encode('ascii', 'replace'))
 
 
 def simple_table(item_tuples) :

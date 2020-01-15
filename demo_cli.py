@@ -9,6 +9,7 @@ import librosa
 import argparse
 import torch
 import sys
+import os
 
 
 if __name__ == '__main__':
@@ -113,24 +114,28 @@ if __name__ == '__main__':
           "an explanation of what is happening.\n")
     
     print("Interactive generation loop")
-    num_generated = 0
+    num_generated = 1
     while True:
         try:
             # Get the reference audio filepath
             message = "Reference voice: enter an audio filepath of a voice to be cloned (mp3, " \
                       "wav, m4a, flac, ...):\n"
-            in_fpath = Path(input(message).replace("\"", "").replace("\'", ""))
-            
-            
+            # path = input(message)
+            path = "dataset/source.mp3"
+            in_fpath = os.fspath(Path(path.replace("\"", "").replace("\'", "")))
+
             ## Computing the embedding
             # First, we load the wav using the function that the speaker encoder provides. This is 
             # important: there is preprocessing that must be applied.
             
             # The following two methods are equivalent:
             # - Directly load from the filepath:
-            preprocessed_wav = encoder.preprocess_wav(in_fpath)
+            # print("preprocess wav")
+            # preprocessed_wav = encoder.preprocess_wav(in_fpath)
             # - If the wav is already loaded:
+            print("Load Librosa")
             original_wav, sampling_rate = librosa.load(in_fpath)
+            print("preprocess wav")
             preprocessed_wav = encoder.preprocess_wav(original_wav, sampling_rate)
             print("Loaded file succesfully")
             
@@ -142,10 +147,12 @@ if __name__ == '__main__':
             
             
             ## Generating the spectrogram
-            text = input("Write a sentence (+-20 words) to be synthesized:\n")
-            print("Text: " + text)
-            text = text.encode('utf-8')
-            print("Encoded Text: " + text)
+            # text = "Alexa, show me a slow cooker recipe from Allrecipes!"
+            text = "Alexa, please turn on the light!"
+            # text = input("Write a sentence (+-20 words) to be synthesized:\n")
+            # print("Text: " + text)
+            # text = text.encode('utf-8')
+            # print("Encoded Text: " + text)
             
             # The synthesizer works in batch, so you need to put your data in a list or numpy array
             texts = [text]
@@ -175,7 +182,7 @@ if __name__ == '__main__':
                 sd.play(generated_wav, synthesizer.sample_rate)
                 
             # Save it on the disk
-            fpath = "demo_output_%02d.wav" % num_generated
+            fpath = "output_%02d.wav" % num_generated
             print(generated_wav.dtype)
             librosa.output.write_wav(fpath, generated_wav.astype(np.float32), 
                                      synthesizer.sample_rate)

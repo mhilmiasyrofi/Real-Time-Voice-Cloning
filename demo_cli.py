@@ -10,6 +10,7 @@ import argparse
 import torch
 import sys
 import os
+import soundfile
 
 
 if __name__ == '__main__':
@@ -184,8 +185,8 @@ if __name__ == '__main__':
                 
             # Save it on the disk
             fpath = "output/audio_%02d.wav" % i
-            librosa.output.write_wav(fpath, generated_wav.astype(np.int16), 
-                                        synthesizer.sample_rate)
+            # librosa.output.write_wav(fpath, generated_wav.astype(np.float32), synthesizer.sample_rate)
+            soundfile.write(fpath, generated_wav, synthesizer.sample_rate, subtype='PCM_16')
             print("\nSave audio at %s\n\n" % fpath)
         
         

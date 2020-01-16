@@ -1,4 +1,8 @@
 Alexa ask transcribe test to record this, Alexa what can you show me
+Alexa ask transcribe test to record this, Alexa play folk music in Amazon at volume six
+Alexa ask transcribe test to record this, Alexa add bread, milk and eggs to my shopping list
+Alexa ask transcribe test to record this, Alexa turn up the volume
+Alexa ask transcribe test to record this, Alexa turn down the volume
 Alexa ask transcribe test to record this, Alexa show my calendar
 Alexa ask transcribe test to record this, Alexa show my photos
 Alexa ask transcribe test to record this, Alexa show me pictures of cats
@@ -38,4 +42,59 @@ Alexa ask transcribe test to record this, Alexa add eggs to my shopping list
 Alexa ask transcribe test to record this, Alexa I need to buy laundry detergent
 Alexa ask transcribe test to record this, Alexa remind me to check the oven in 5 minutes
 Alexa ask transcribe test to record this, Alexa find me a nearby pizza restaurant
+Alexa ask transcribe test to record this, Alexa find the address for Bank of America
+Alexa ask transcribe test to record this, Alexa find business hours for Harris Teeter
 Alexa ask transcribe test to record this, Alexa pick a number between 1 and 50
+Alexa ask transcribe test to record this, Alexa what is the definition of definition
+Alexa ask transcribe test to record this, Alexa give me my Sports Update
+Alexa ask transcribe test to record this, Alexa ask Yahoo Fantasy Football for a score update
+Alexa ask transcribe test to record this, Alexa ask Yahoo Fantasy Football if Colin Kaepernick is playing this week
+Alexa ask transcribe test to record this, Alexa what are the EPL standings
+Alexa ask transcribe test to record this, Alexa send that to my Fire tablet
+Alexa ask transcribe test to record this, Alexa dim the lights to 50 percent
+Alexa ask transcribe test to record this, Alexa make the living room lights red
+Alexa ask transcribe test to record this, Alexa turn the lights to soft white
+Alexa ask transcribe test to record this, Alexa make the kitchen lights a little warmer
+Alexa ask transcribe test to record this, Alexa raise the temperature 1 degree
+Alexa ask transcribe test to record this, Alexa set the temperature to 72
+Alexa ask transcribe test to record this, Alexa lock my back door
+Alexa ask transcribe test to record this, Alexa tell me more
+Alexa ask transcribe test to record this, Alexa ask Quora if Crustaceans feel pain when you boil them
+Alexa ask transcribe test to record this, Alexa tell me a holiday limerick
+Alexa ask transcribe test to record this, Alexa how old is Santa Claus
+Alexa ask transcribe test to record this, Alexa where does Santa Claus live
+Alexa ask transcribe test to record this, Alexa sing a Christmas carol
+Alexa ask transcribe test to record this, Alexa tell me a snowman joke
+Alexa ask transcribe test to record this, Alexa what are the top holiday movies
+Alexa ask transcribe test to record this, Alexa spin the dreidel
+Alexa ask transcribe test to record this, Alexa what's your favorite holiday movie
+Alexa ask transcribe test to record this, Alexa what are the top holiday movies
+Alexa ask transcribe test to record this, Alexa give me an Easter egg
+Alexa ask transcribe test to record this, Alexa good morning
+Alexa ask transcribe test to record this, Alexa tell me a joke
+Alexa ask transcribe test to record this, Alexa beam me up
+Alexa ask transcribe test to record this, Alexa set phasers to kill
+Alexa ask transcribe test to record this, Alexa my name is Inigo Montoya
+Alexa ask transcribe test to record this, Alexa I want the truth
+Alexa ask transcribe test to record this, Alexa show me the money
+Alexa ask transcribe test to record this, Alexa what's the first rule of Fight Club
+Alexa ask transcribe test to record this, Alexa surely you can't be serious
+Alexa ask transcribe test to record this, Alexa are you SkyNet
+Alexa ask transcribe test to record this, Alexa party time
+Alexa ask transcribe test to record this, Alexa open the pod bay doors
+Alexa ask transcribe test to record this, Alexa when am I going to die
+Alexa ask transcribe test to record this, Alexa what is your quest
+Alexa ask transcribe test to record this, Alexa nice to see you
+Alexa ask transcribe test to record this, Alexa don't mention the war
+Alexa ask transcribe test to record this, Alexa this is a dead parrot
+Alexa ask transcribe test to record this, Alexa what is your cunning plan
+Alexa ask transcribe test to record this, Alexa ask Pikachu to talk
+Alexa ask transcribe test to record this, Alexa play Twenty Questions
+Alexa ask transcribe test to record this, Alexa open Escape the Room
+Alexa ask transcribe test to record this, Alexa start Watch Your Words
+Alexa ask transcribe test to record this, Alexa ask Question of The Day
+Alexa ask transcribe test to record this, Alexa let's chat
+Alexa ask transcribe test to record this, Alexa louder
+Alexa ask transcribe test to record this, Alexa mute
+Alexa ask transcribe test to record this, Alexa unmute
+Alexa ask transcribe test to record this, Alexa set the volume to 5

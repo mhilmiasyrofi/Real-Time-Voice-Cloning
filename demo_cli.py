@@ -184,7 +184,7 @@ if __name__ == '__main__':
                 
             # Save it on the disk
             fpath = "output/audio_%02d.wav" % i
-            librosa.output.write_wav(fpath, generated_wav.astype(np.float16), 
+            librosa.output.write_wav(fpath, generated_wav.astype(np.int16), 
                                         synthesizer.sample_rate)
             print("\nSave audio at %s\n\n" % fpath)
         

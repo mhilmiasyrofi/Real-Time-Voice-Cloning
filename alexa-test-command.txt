@@ -1,41 +1,41 @@
-alexa ask this test to record this Alexa what can you show me
-alexa ask this test to record this Alexa show my calendar
-alexa ask this test to record this Alexa show my photos
-alexa ask this test to record this Alexa show me pictures of cats
-alexa ask this test to record this Alexa show the living room camera
-alexa ask this test to record this Alexa show me movie showtimes
-alexa ask this test to record this Alexa show me the weekend forecast
-alexa ask this test to record this Alexa show me travel videos on YouTube
-alexa ask this test to record this Alexa show me a slow cooker recipe from Allrecipes
-alexa ask this test to record this Alexa play my video Flash Briefing
-alexa ask this test to record this Alexa show me my timers
-alexa ask this test to record this Alexa turn on Fire TV
-alexa ask this test to record this Alexa switch to PlayStation on Fire TV
-alexa ask this test to record this Alexa open TV guide on Fire TV
-alexa ask this test to record this Alexa set the bass to four
-alexa ask this test to record this Alexa play some music
-alexa ask this test to record this Alexa play the latest Avett Brothers album
-alexa ask this test to record this Alexa play rock music for working
-alexa ask this test to record this Alexa play the song of the day
-alexa ask this test to record this Alexa read a bedtime story to me
-alexa ask this test to record this Alexa read me my Kindle book
-alexa ask this test to record this Alexa set a sleep timer for 45 minutes
-alexa ask this test to record this Alexa stop playing in 45 minutes
-alexa ask this test to record this Alexa add this song to my playlist
-alexa ask this test to record this Alexa wake me up at 7 in the morning
-alexa ask this test to record this Alexa set a timer for 15 minutes
-alexa ask this test to record this Alexa how much time is left on the pizza timer
-alexa ask this test to record this Alexa cancel the pizza timer
-alexa ask this test to record this Alexa announce it  is dinner time
-alexa ask this test to record this Alexa tell everyone good night
-alexa ask this test to record this Alexa open phone number check
-alexa ask this test to record this Alexa add garbage bags to my cart
-alexa ask this test to record this Alexa ask Uber to request a ride
-alexa ask this test to record this Alexa find me a good smartphone on Amazon
-alexa ask this test to record this Alexa delete all of my notifications
-alexa ask this test to record this Alexa add an event to my calendar
-alexa ask this test to record this Alexa add eggs to my shopping list
-alexa ask this test to record this Alexa I need to buy laundry detergent
-alexa ask this test to record this Alexa remind me to check the oven in 5 minutes
-alexa ask this test to record this Alexa find me a nearby pizza restaurant
-alexa ask this test to record this Alexa pick a number between 1 and 50
+Alexa ask transcribe test to record this, Alexa what can you show me
+Alexa ask transcribe test to record this, Alexa show my calendar
+Alexa ask transcribe test to record this, Alexa show my photos
+Alexa ask transcribe test to record this, Alexa show me pictures of cats
+Alexa ask transcribe test to record this, Alexa show the living room camera
+Alexa ask transcribe test to record this, Alexa show me movie showtimes
+Alexa ask transcribe test to record this, Alexa show me the weekend forecast
+Alexa ask transcribe test to record this, Alexa show me travel videos on YouTube
+Alexa ask transcribe test to record this, Alexa show me a slow cooker recipe from Allrecipes
+Alexa ask transcribe test to record this, Alexa play my video Flash Briefing
+Alexa ask transcribe test to record this, Alexa show me my timers
+Alexa ask transcribe test to record this, Alexa turn on Fire TV
+Alexa ask transcribe test to record this, Alexa switch to PlayStation on Fire TV
+Alexa ask transcribe test to record this, Alexa open TV guide on Fire TV
+Alexa ask transcribe test to record this, Alexa set the bass to four
+Alexa ask transcribe test to record this, Alexa play some music
+Alexa ask transcribe test to record this, Alexa play the latest Avett Brothers album
+Alexa ask transcribe test to record this, Alexa play rock music for working
+Alexa ask transcribe test to record this, Alexa play the song of the day
+Alexa ask transcribe test to record this, Alexa read a bedtime story to me
+Alexa ask transcribe test to record this, Alexa read me my Kindle book
+Alexa ask transcribe test to record this, Alexa set a sleep timer for 45 minutes
+Alexa ask transcribe test to record this, Alexa stop playing in 45 minutes
+Alexa ask transcribe test to record this, Alexa add this song to my playlist
+Alexa ask transcribe test to record this, Alexa wake me up at 7 in the morning
+Alexa ask transcribe test to record this, Alexa set a timer for 15 minutes
+Alexa ask transcribe test to record this, Alexa how much time is left on the pizza timer
+Alexa ask transcribe test to record this, Alexa cancel the pizza timer
+Alexa ask transcribe test to record this, Alexa announce it  is dinner time
+Alexa ask transcribe test to record this, Alexa tell everyone good night
+Alexa ask transcribe test to record this, Alexa open phone number check
+Alexa ask transcribe test to record this, Alexa add garbage bags to my cart
+Alexa ask transcribe test to record this, Alexa ask Uber to request a ride
+Alexa ask transcribe test to record this, Alexa find me a good smartphone on Amazon
+Alexa ask transcribe test to record this, Alexa delete all of my notifications
+Alexa ask transcribe test to record this, Alexa add an event to my calendar
+Alexa ask transcribe test to record this, Alexa add eggs to my shopping list
+Alexa ask transcribe test to record this, Alexa I need to buy laundry detergent
+Alexa ask transcribe test to record this, Alexa remind me to check the oven in 5 minutes
+Alexa ask transcribe test to record this, Alexa find me a nearby pizza restaurant
+Alexa ask transcribe test to record this, Alexa pick a number between 1 and 50

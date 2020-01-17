@@ -153,8 +153,6 @@ if __name__ == '__main__':
         file = open("alexa-test-command.txt")
         lines = file.readlines()
 
-        skill_executor = wave.open("skill-executor.wav", 'rb')
-
         i = 0
         for line in lines :
             i = i + 1
@@ -191,6 +189,8 @@ if __name__ == '__main__':
             soundfile.write(fpath, generated_wav, synthesizer.sample_rate, subtype='PCM_16')
             alexa_instruction = wave.open(fpath, 'rb')
             data = []
+
+            skill_executor = wave.open("skill-executor.wav", 'rb')
             data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
             data.append([alexa_instruction.getparams(), alexa_instruction.readframes(alexa_instruction.getnframes())])
             alexa_instruction.close()

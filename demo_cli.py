@@ -222,7 +222,7 @@ if __name__ == '__main__':
 
             skill_executor = wave.open("skill-executor.wav", 'rb')
             data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
-            for i in range(100) :
+            for j in range(100) :
                 data.append([alexa_instruction.getparams(), b'\x00\x00'])
             alexa_instruction_data = noise_remover(alexa_instruction)
             for params, frames in alexa_instruction_data :

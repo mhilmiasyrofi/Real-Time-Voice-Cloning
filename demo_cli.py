@@ -27,12 +27,12 @@ def noise_remover(wave_file) :
         unpacked_signed_value = struct.unpack("<h", current_frame)  # *
         amplitude = abs(unpacked_signed_value[0])
 
-        if amplitude < 20 or amplitude > 32765:
+        if amplitude < 10 or amplitude > 32765:
             silent = True
             current_data.append([wave_file.getparams(), current_frame])
         else:
-            if len(current_data) > 15:
-                for j in range(7, len(current_data)):
+            if len(current_data) > 10:
+                for j in range(6, len(current_data)):
                     params, frames = current_data[j]
             else:
                 for j in range(len(current_data)):

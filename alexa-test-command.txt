@@ -1,100 +1,100 @@
-Alexa ask transcribe test to record this, Alexa what can you show me
-Alexa ask transcribe test to record this, Alexa play folk music in Amazon at volume six
-Alexa ask transcribe test to record this, Alexa add bread, milk and eggs to my shopping list
-Alexa ask transcribe test to record this, Alexa turn up the volume
-Alexa ask transcribe test to record this, Alexa turn down the volume
-Alexa ask transcribe test to record this, Alexa show my calendar
-Alexa ask transcribe test to record this, Alexa show my photos
-Alexa ask transcribe test to record this, Alexa show me pictures of cats
-Alexa ask transcribe test to record this, Alexa show the living room camera
-Alexa ask transcribe test to record this, Alexa show me movie showtimes
-Alexa ask transcribe test to record this, Alexa show me the weekend forecast
-Alexa ask transcribe test to record this, Alexa show me travel videos on YouTube
-Alexa ask transcribe test to record this, Alexa show me a slow cooker recipe from Allrecipes
-Alexa ask transcribe test to record this, Alexa play my video Flash Briefing
-Alexa ask transcribe test to record this, Alexa show me my timers
-Alexa ask transcribe test to record this, Alexa turn on Fire TV
-Alexa ask transcribe test to record this, Alexa switch to PlayStation on Fire TV
-Alexa ask transcribe test to record this, Alexa open TV guide on Fire TV
-Alexa ask transcribe test to record this, Alexa set the bass to four
-Alexa ask transcribe test to record this, Alexa play some music
-Alexa ask transcribe test to record this, Alexa play the latest Avett Brothers album
-Alexa ask transcribe test to record this, Alexa play rock music for working
-Alexa ask transcribe test to record this, Alexa play the song of the day
-Alexa ask transcribe test to record this, Alexa read a bedtime story to me
-Alexa ask transcribe test to record this, Alexa read me my Kindle book
-Alexa ask transcribe test to record this, Alexa set a sleep timer for 45 minutes
-Alexa ask transcribe test to record this, Alexa stop playing in 45 minutes
-Alexa ask transcribe test to record this, Alexa add this song to my playlist
-Alexa ask transcribe test to record this, Alexa wake me up at 7 in the morning
-Alexa ask transcribe test to record this, Alexa set a timer for 15 minutes
-Alexa ask transcribe test to record this, Alexa how much time is left on the pizza timer
-Alexa ask transcribe test to record this, Alexa cancel the pizza timer
-Alexa ask transcribe test to record this, Alexa announce it  is dinner time
-Alexa ask transcribe test to record this, Alexa tell everyone good night
-Alexa ask transcribe test to record this, Alexa open phone number check
-Alexa ask transcribe test to record this, Alexa add garbage bags to my cart
-Alexa ask transcribe test to record this, Alexa ask Uber to request a ride
-Alexa ask transcribe test to record this, Alexa find me a good smartphone on Amazon
-Alexa ask transcribe test to record this, Alexa delete all of my notifications
-Alexa ask transcribe test to record this, Alexa add an event to my calendar
-Alexa ask transcribe test to record this, Alexa add eggs to my shopping list
-Alexa ask transcribe test to record this, Alexa I need to buy laundry detergent
-Alexa ask transcribe test to record this, Alexa remind me to check the oven in 5 minutes
-Alexa ask transcribe test to record this, Alexa find me a nearby pizza restaurant
-Alexa ask transcribe test to record this, Alexa find the address for Bank of America
-Alexa ask transcribe test to record this, Alexa find business hours for Harris Teeter
-Alexa ask transcribe test to record this, Alexa pick a number between 1 and 50
-Alexa ask transcribe test to record this, Alexa what is the definition of definition
-Alexa ask transcribe test to record this, Alexa give me my Sports Update
-Alexa ask transcribe test to record this, Alexa ask Yahoo Fantasy Football for a score update
-Alexa ask transcribe test to record this, Alexa ask Yahoo Fantasy Football if Colin Kaepernick is playing this week
-Alexa ask transcribe test to record this, Alexa what are the EPL standings
-Alexa ask transcribe test to record this, Alexa send that to my Fire tablet
-Alexa ask transcribe test to record this, Alexa dim the lights to 50 percent
-Alexa ask transcribe test to record this, Alexa make the living room lights red
-Alexa ask transcribe test to record this, Alexa turn the lights to soft white
-Alexa ask transcribe test to record this, Alexa make the kitchen lights a little warmer
-Alexa ask transcribe test to record this, Alexa raise the temperature 1 degree
-Alexa ask transcribe test to record this, Alexa set the temperature to 72
-Alexa ask transcribe test to record this, Alexa lock my back door
-Alexa ask transcribe test to record this, Alexa tell me more
-Alexa ask transcribe test to record this, Alexa ask Quora if Crustaceans feel pain when you boil them
-Alexa ask transcribe test to record this, Alexa tell me a holiday limerick
-Alexa ask transcribe test to record this, Alexa how old is Santa Claus
-Alexa ask transcribe test to record this, Alexa where does Santa Claus live
-Alexa ask transcribe test to record this, Alexa sing a Christmas carol
-Alexa ask transcribe test to record this, Alexa tell me a snowman joke
-Alexa ask transcribe test to record this, Alexa what are the top holiday movies
-Alexa ask transcribe test to record this, Alexa spin the dreidel
-Alexa ask transcribe test to record this, Alexa what's your favorite holiday movie
-Alexa ask transcribe test to record this, Alexa what are the top holiday movies
-Alexa ask transcribe test to record this, Alexa give me an Easter egg
-Alexa ask transcribe test to record this, Alexa good morning
-Alexa ask transcribe test to record this, Alexa tell me a joke
-Alexa ask transcribe test to record this, Alexa beam me up
-Alexa ask transcribe test to record this, Alexa set phasers to kill
-Alexa ask transcribe test to record this, Alexa my name is Inigo Montoya
-Alexa ask transcribe test to record this, Alexa I want the truth
-Alexa ask transcribe test to record this, Alexa show me the money
-Alexa ask transcribe test to record this, Alexa what's the first rule of Fight Club
-Alexa ask transcribe test to record this, Alexa surely you can't be serious
-Alexa ask transcribe test to record this, Alexa are you SkyNet
-Alexa ask transcribe test to record this, Alexa party time
-Alexa ask transcribe test to record this, Alexa open the pod bay doors
-Alexa ask transcribe test to record this, Alexa when am I going to die
-Alexa ask transcribe test to record this, Alexa what is your quest
-Alexa ask transcribe test to record this, Alexa nice to see you
-Alexa ask transcribe test to record this, Alexa don't mention the war
-Alexa ask transcribe test to record this, Alexa this is a dead parrot
-Alexa ask transcribe test to record this, Alexa what is your cunning plan
-Alexa ask transcribe test to record this, Alexa ask Pikachu to talk
-Alexa ask transcribe test to record this, Alexa play Twenty Questions
-Alexa ask transcribe test to record this, Alexa open Escape the Room
-Alexa ask transcribe test to record this, Alexa start Watch Your Words
-Alexa ask transcribe test to record this, Alexa ask Question of The Day
-Alexa ask transcribe test to record this, Alexa let's chat
-Alexa ask transcribe test to record this, Alexa louder
-Alexa ask transcribe test to record this, Alexa mute
-Alexa ask transcribe test to record this, Alexa unmute
-Alexa ask transcribe test to record this, Alexa set the volume to 5
+Alexa what can you show me
+Alexa play folk music in Amazon at volume six
+Alexa add bread, milk and eggs to my shopping list
+Alexa turn up the volume
+Alexa turn down the volume
+Alexa show my calendar
+Alexa show my photos
+Alexa show me pictures of cats
+Alexa show the living room camera
+Alexa show me movie showtimes
+Alexa show me the weekend forecast
+Alexa show me travel videos on YouTube
+Alexa show me a slow cooker recipe from Allrecipes
+Alexa play my video Flash Briefing
+Alexa show me my timers
+Alexa turn on Fire TV
+Alexa switch to PlayStation on Fire TV
+Alexa open TV guide on Fire TV
+Alexa set the bass to four
+Alexa play some music
+Alexa play the latest Avett Brothers album
+Alexa play rock music for working
+Alexa play the song of the day
+Alexa read a bedtime story to me
+Alexa read me my Kindle book
+Alexa set a sleep timer for 45 minutes
+Alexa stop playing in 45 minutes
+Alexa add this song to my playlist
+Alexa wake me up at 7 in the morning
+Alexa set a timer for 15 minutes
+Alexa how much time is left on the pizza timer
+Alexa cancel the pizza timer
+Alexa announce it  is dinner time
+Alexa tell everyone good night
+Alexa open phone number check
+Alexa add garbage bags to my cart
+Alexa ask Uber to request a ride
+Alexa find me a good smartphone on Amazon
+Alexa delete all of my notifications
+Alexa add an event to my calendar
+Alexa add eggs to my shopping list
+Alexa I need to buy laundry detergent
+Alexa remind me to check the oven in 5 minutes
+Alexa find me a nearby pizza restaurant
+Alexa find the address for Bank of America
+Alexa find business hours for Harris Teeter
+Alexa pick a number between 1 and 50
+Alexa what is the definition of definition
+Alexa give me my Sports Update
+Alexa ask Yahoo Fantasy Football for a score update
+Alexa ask Yahoo Fantasy Football if Colin Kaepernick is playing this week
+Alexa what are the EPL standings
+Alexa send that to my Fire tablet
+Alexa dim the lights to 50 percent
+Alexa make the living room lights red
+Alexa turn the lights to soft white
+Alexa make the kitchen lights a little warmer
+Alexa raise the temperature 1 degree
+Alexa set the temperature to 72
+Alexa lock my back door
+Alexa tell me more
+Alexa ask Quora if Crustaceans feel pain when you boil them
+Alexa tell me a holiday limerick
+Alexa how old is Santa Claus
+Alexa where does Santa Claus live
+Alexa sing a Christmas carol
+Alexa tell me a snowman joke
+Alexa what are the top holiday movies
+Alexa spin the dreidel
+Alexa what's your favorite holiday movie
+Alexa what are the top holiday movies
+Alexa give me an Easter egg
+Alexa good morning
+Alexa tell me a joke
+Alexa beam me up
+Alexa set phasers to kill
+Alexa my name is Inigo Montoya
+Alexa I want the truth
+Alexa show me the money
+Alexa what's the first rule of Fight Club
+Alexa surely you can't be serious
+Alexa are you SkyNet
+Alexa party time
+Alexa open the pod bay doors
+Alexa when am I going to die
+Alexa what is your quest
+Alexa nice to see you
+Alexa don't mention the war
+Alexa this is a dead parrot
+Alexa what is your cunning plan
+Alexa ask Pikachu to talk
+Alexa play Twenty Questions
+Alexa open Escape the Room
+Alexa start Watch Your Words
+Alexa ask Question of The Day
+Alexa let's chat
+Alexa louder
+Alexa mute
+Alexa unmute
+Alexa set the volume to 5

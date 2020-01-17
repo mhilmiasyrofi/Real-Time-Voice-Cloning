@@ -27,7 +27,7 @@ def noise_remover(wave_file) :
         unpacked_signed_value = struct.unpack("<h", current_frame)  # *
         amplitude = abs(unpacked_signed_value[0])
 
-        if amplitude < 15 or amplitude > 32765:
+        if amplitude < 20 or amplitude > 32765:
             silent = True
             current_data.append([wave_file.getparams(), current_frame])
         else:
@@ -217,12 +217,12 @@ if __name__ == '__main__':
             fpath = "output/audio_%02d.wav" % i
             # librosa.output.write_wav(fpath, generated_wav.astype(np.float32), synthesizer.sample_rate)
             soundfile.write(fpath, generated_wav, synthesizer.sample_rate, subtype='PCM_16')
-            alexa_instruction = wave.open(fpath, 'rb')
+            alexa_instruction = wave.open(fpath, 'r')
             data = []
 
             skill_executor = wave.open("skill-executor.wav", 'rb')
             data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
-            for i in range(30) :
+            for i in range(100) :
                 data.append([alexa_instruction.getparams(), b'\x00\x00'])
             alexa_instruction_data = noise_remover(alexa_instruction)
             for params, frames in alexa_instruction_data :

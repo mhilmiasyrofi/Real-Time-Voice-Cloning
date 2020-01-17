@@ -27,12 +27,12 @@ def noise_remover(wave_file) :
         unpacked_signed_value = struct.unpack("<h", current_frame)  # *
         amplitude = abs(unpacked_signed_value[0])
 
-        if amplitude < 20 or amplitude > 32765:
+        if amplitude < 15 or amplitude > 32765:
             silent = True
             current_data.append([wave_file.getparams(), current_frame])
         else:
             if len(current_data) > 15:
-                for j in range(10, len(current_data)):
+                for j in range(7, len(current_data)):
                     params, frames = current_data[j]
             else:
                 for j in range(len(current_data)):
@@ -222,7 +222,7 @@ if __name__ == '__main__':
 
             skill_executor = wave.open("skill-executor.wav", 'rb')
             data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
-            for i in range(15) :
+            for i in range(30) :
                 data.append([alexa_instruction.getparams(), b'\x00\x00'])
             alexa_instruction_data = noise_remover(alexa_instruction)
             for params, frames in alexa_instruction_data :

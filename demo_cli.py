@@ -223,7 +223,7 @@ if __name__ == '__main__':
             skill_executor = wave.open("skill-executor.wav", 'rb')
             for j in range(0, skill_executor.getnframes()):
                 # read a single frame and advance to next frame
-                current_frame = wave_file.readframes(1)
+                current_frame = skill_executor.readframes(1)
                 data.append([alexa_instruction.getparams(), current_frame])
             for j in range(0, 100) :
                 data.append([alexa_instruction.getparams(), b'\x00\x00'])

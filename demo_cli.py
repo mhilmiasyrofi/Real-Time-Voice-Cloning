@@ -10,7 +10,38 @@ import argparse
 import torch
 import sys
 import os
-import soundfile, wave
+import soundfile, wave, struct
+
+def noise_remover(wave_file) :
+    data = []
+    current_data = []
+
+    for i in range(wave_file.getnframes()):
+        # read a single frame and advance to next frame
+        current_frame = wave_file.readframes(1)
+
+        silent = False
+
+        # wave frame samples are stored in little endian**
+        # this example works for a single channel 16-bit per sample encoding
+        unpacked_signed_value = struct.unpack("<h", current_frame)  # *
+        amplitude = abs(unpacked_signed_value[0])
+
+        if amplitude < 20 or amplitude > 32765:
+            silent = True
+            print(current_frame)
+            current_data.append([wave_file.getparams(), current_frame])
+        else:
+            if len(current_data) > 15:
+                for j in range(10, len(current_data)):
+                    params, frames = current_data[j]
+            else:
+                for j in range(len(current_data)):
+                    params, frames = current_data[j]
+                    data.append([params, frames])
+            data.append([wave_file.getparams(), current_frame])
+            current_data = []
+    return data
 
 
 if __name__ == '__main__':
@@ -192,7 +223,11 @@ if __name__ == '__main__':
 
             skill_executor = wave.open("skill-executor.wav", 'rb')
             data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
-            data.append([alexa_instruction.getparams(), alexa_instruction.readframes(alexa_instruction.getnframes())])
+            for i in range(6) :
+                data.append([alexa_instruction.getparams(), b'\x00\x00'])
+            alexa_instruction_data = noise_remover(alexa_instruction)
+            for params, frames in alexa_instruction_data :
+                data.append([params, frames])
             alexa_instruction.close()
             
             output = wave.open(fpath, 'wb')

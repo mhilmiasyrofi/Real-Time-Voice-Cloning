@@ -10,7 +10,7 @@ import argparse
 import torch
 import sys
 import os
-import soundfile
+import soundfile, wave
 
 
 if __name__ == '__main__':
@@ -153,7 +153,7 @@ if __name__ == '__main__':
         file = open("alexa-test-command.txt")
         lines = file.readlines()
 
-        skill_executor = soundfile.open("skill-executor.wav")
+        skill_executor = wave.open("skill-executor.wav", 'rb')
 
         i = 0
         for line in lines :
@@ -190,11 +190,22 @@ if __name__ == '__main__':
                 fpath = "output/audio_%02d.wav" % i
                 # librosa.output.write_wav(fpath, generated_wav.astype(np.float32), synthesizer.sample_rate)
                 soundfile.write(fpath, generated_wav, synthesizer.sample_rate, subtype='PCM_16')
-                alexa_instruction = soundfile.open(fpath)
-                soundfile.write(fpath, skill_executor + alexa_instruction, synthesizer.sample_rate, subtype='PCM_16')
+                alexa_instruction = wave.open(fpath, 'rb')
+                data = []
+                data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
+                data.append([alexa_instruction.getparams(), alexa_instruction.readframes(alexa_instruction.getnframes())])
+                alexa_instruction.close()
+                
+                output = wave.open(fpath, 'wb')
+                output.setparams(data[0][0])
+                output.writeframes(data[0][1])
+                output.writeframes(data[1][1])
+                output.close()
+                
                 print("\nSave audio at %s\n\n" % fpath)
         
-        
+        skill_executor.close()
+
     except Exception as e:
         print("Caught exception: %s" % repr(e))
         

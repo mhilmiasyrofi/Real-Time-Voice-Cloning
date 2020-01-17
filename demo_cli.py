@@ -158,51 +158,50 @@ if __name__ == '__main__':
         i = 0
         for line in lines :
             i = i + 1
-            if (i == 1) :
-                # The synthesizer works in batch, so you need to put your data in a list or numpy array
-                texts = [line]
-                embeds = [embed]
-                # If you know what the attention layer alignments are, you can retrieve them here by
-                # passing return_alignments=True
-                specs = synthesizer.synthesize_spectrograms(texts, embeds)
-                spec = specs[0]
-                # print("Created the mel spectrogram")
+            # The synthesizer works in batch, so you need to put your data in a list or numpy array
+            texts = [line]
+            embeds = [embed]
+            # If you know what the attention layer alignments are, you can retrieve them here by
+            # passing return_alignments=True
+            specs = synthesizer.synthesize_spectrograms(texts, embeds)
+            spec = specs[0]
+            # print("Created the mel spectrogram")
+            
+            
+            ## Generating the waveform
+            # Synthesizing the waveform is fairly straightforward. Remember that the longer the
+            # spectrogram, the more time-efficient the vocoder.
+            # print("Synthesizing the waveform:")
+            generated_wav = vocoder.infer_waveform(spec)
+            
+            
+            ## Post-generation
+            # There's a bug with sounddevice that makes the audio cut one second earlier, so we
+            # pad it.
+            generated_wav = np.pad(generated_wav, (0, synthesizer.sample_rate), mode="constant")
+            
+            # Play the audio (non-blocking)
+            if not args.no_sound:
+                sd.stop()
+                sd.play(generated_wav, synthesizer.sample_rate)
                 
-                
-                ## Generating the waveform
-                # Synthesizing the waveform is fairly straightforward. Remember that the longer the
-                # spectrogram, the more time-efficient the vocoder.
-                # print("Synthesizing the waveform:")
-                generated_wav = vocoder.infer_waveform(spec)
-                
-                
-                ## Post-generation
-                # There's a bug with sounddevice that makes the audio cut one second earlier, so we
-                # pad it.
-                generated_wav = np.pad(generated_wav, (0, synthesizer.sample_rate), mode="constant")
-                
-                # Play the audio (non-blocking)
-                if not args.no_sound:
-                    sd.stop()
-                    sd.play(generated_wav, synthesizer.sample_rate)
-                    
-                # Save it on the disk
-                fpath = "output/audio_%02d.wav" % i
-                # librosa.output.write_wav(fpath, generated_wav.astype(np.float32), synthesizer.sample_rate)
-                soundfile.write(fpath, generated_wav, synthesizer.sample_rate, subtype='PCM_16')
-                alexa_instruction = wave.open(fpath, 'rb')
-                data = []
-                data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
-                data.append([alexa_instruction.getparams(), alexa_instruction.readframes(alexa_instruction.getnframes())])
-                alexa_instruction.close()
-                
-                output = wave.open(fpath, 'wb')
-                output.setparams(data[0][0])
-                output.writeframes(data[0][1])
-                output.writeframes(data[1][1])
-                output.close()
-                
-                print("\nSave audio at %s\n\n" % fpath)
+            # Save it on the disk
+            fpath = "output/audio_%02d.wav" % i
+            # librosa.output.write_wav(fpath, generated_wav.astype(np.float32), synthesizer.sample_rate)
+            soundfile.write(fpath, generated_wav, synthesizer.sample_rate, subtype='PCM_16')
+            alexa_instruction = wave.open(fpath, 'rb')
+            data = []
+            data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
+            data.append([alexa_instruction.getparams(), alexa_instruction.readframes(alexa_instruction.getnframes())])
+            alexa_instruction.close()
+            
+            output = wave.open(fpath, 'wb')
+            output.setparams(data[0][0])
+            output.writeframes(data[0][1])
+            output.writeframes(data[1][1])
+            output.close()
+            
+            print("\nSave audio at %s\n\n" % fpath)
         
         skill_executor.close()
 

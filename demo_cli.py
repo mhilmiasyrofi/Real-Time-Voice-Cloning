@@ -29,7 +29,6 @@ def noise_remover(wave_file) :
 
         if amplitude < 20 or amplitude > 32765:
             silent = True
-            print(current_frame)
             current_data.append([wave_file.getparams(), current_frame])
         else:
             if len(current_data) > 15:

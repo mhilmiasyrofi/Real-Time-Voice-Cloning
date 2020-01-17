@@ -221,12 +221,14 @@ if __name__ == '__main__':
             data = []
 
             skill_executor = wave.open("skill-executor.wav", 'rb')
+            gap = wave.open("gap.wav", 'rb')
             for j in range(0, skill_executor.getnframes()):
-                # read a single frame and advance to next frame
                 current_frame = skill_executor.readframes(1)
                 data.append([alexa_instruction.getparams(), current_frame])
-            for j in range(0, 100) :
-                data.append([alexa_instruction.getparams(), b'\x00\x00'])
+            for j in range(0, gap.getnframes()):
+                current_frame = gap.readframes(1)
+                data.append([alexa_instruction.getparams(), current_frame])
+                data.append([alexa_instruction.getparams(), current_frame])
             alexa_instruction_data = noise_remover(alexa_instruction)
             for params, frames in alexa_instruction_data :
                 data.append([params, frames])

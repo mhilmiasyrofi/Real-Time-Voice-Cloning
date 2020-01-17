@@ -221,8 +221,11 @@ if __name__ == '__main__':
             data = []
 
             skill_executor = wave.open("skill-executor.wav", 'rb')
-            data.append([skill_executor.getparams(), skill_executor.readframes(skill_executor.getnframes())])
-            for j in range(100) :
+            for j in range(0, skill_executor.getnframes()):
+                # read a single frame and advance to next frame
+                current_frame = wave_file.readframes(1)
+                data.append([alexa_instruction.getparams(), current_frame])
+            for j in range(0, 100) :
                 data.append([alexa_instruction.getparams(), b'\x00\x00'])
             alexa_instruction_data = noise_remover(alexa_instruction)
             for params, frames in alexa_instruction_data :
@@ -231,8 +234,8 @@ if __name__ == '__main__':
             
             output = wave.open(fpath, 'wb')
             output.setparams(data[0][0])
-            output.writeframes(data[0][1])
-            output.writeframes(data[1][1])
+            for params, frames in data:
+                output.writeframes(frames)
             output.close()
             
             print("\nSave audio at %s\n\n" % fpath)

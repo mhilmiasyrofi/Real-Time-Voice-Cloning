@@ -33,8 +33,12 @@ def noise_remover(wave_file) :
             current_data.append([wave_file.getparams(), current_frame])
         else:
             if len(current_data) > 10:
-                for j in range(3, len(current_data) - 3):
+                for j in range(3):
                     params, frames = current_data[j]
+                    data.append([params, frames])
+                for j in range(len(current_data) - 3, len(current_data)):
+                    params, frames = current_data[j]
+                    data.append([params, frames])
             else:
                 for j in range(len(current_data)):
                     params, frames = current_data[j]

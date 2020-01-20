@@ -1,6 +1,6 @@
 Alexa what can you show me
-Alexa play folk music in Amazon at volume six
-Alexa add bread, milk and eggs to my shopping list
+Alexa play folk music in Amazon at volume 6
+Alexa add bread milk and eggs to my shopping list
 Alexa turn up the volume
 Alexa turn down the volume
 Alexa show my calendar
@@ -16,7 +16,7 @@ Alexa show me my timers
 Alexa turn on Fire TV
 Alexa switch to PlayStation on Fire TV
 Alexa open TV guide on Fire TV
-Alexa set the bass to four
+Alexa set the bass to 4
 Alexa play some music
 Alexa play the latest Avett Brothers album
 Alexa play rock music for working
@@ -51,11 +51,11 @@ Alexa ask Yahoo Fantasy Football for a score update
 Alexa ask Yahoo Fantasy Football if Colin Kaepernick is playing this week
 Alexa what are the EPL standings
 Alexa send that to my Fire tablet
-Alexa dim the lights to 50 percent
+Alexa dim the lights to 50
 Alexa make the living room lights red
 Alexa turn the lights to soft white
 Alexa make the kitchen lights a little warmer
-Alexa raise the temperature 1 degree
+Alexa raise the temperature 1 kelvin
 Alexa set the temperature to 72
 Alexa lock my back door
 Alexa tell me more
